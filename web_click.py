@@ -23,7 +23,7 @@ def web_click(input_text):
         page.keyboard.press("Enter")  # 按回车键发送请求
         
         # 等待结果完全加载
-        time.sleep(2)  # 可以替换为更精确的等待方式
+        time.sleep(2)
 
         # 等待结果加载完成，等待特定元素出现
         # page.wait_for_selector("xpath=")
