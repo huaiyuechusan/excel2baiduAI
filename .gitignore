@@ -1,5 +1,6 @@
-./data
-./data/*
-./output/
-./output/*
+# 忽略data目录及其所有内容
+data/
+# 忽略output目录及其所有内容
+output/
+# 忽略特定文件
 资料.txt
